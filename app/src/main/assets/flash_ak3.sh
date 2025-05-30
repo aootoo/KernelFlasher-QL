@@ -16,7 +16,7 @@ $F/busybox rm -rf $TMP 2>/dev/null;
 $F/busybox mkdir -p $TMP;
 
 $F/busybox mount -t tmpfs -o noatime tmpfs $TMP;
-$F/busybox mount | $F/busybox grep -q " $TMP " || exit 1;
+#$F/busybox mount | $F/busybox grep -q " $TMP " || exit 1;
 
 # update-binary <RECOVERY_API_VERSION> <OUTFD> <ZIPFILE>
 AKHOME=$TMP/anykernel $F/busybox ash $F/update-binary 3 1 "$Z";
