@@ -109,7 +109,7 @@ fun RefreshableScreen(
                 withStyle(
                   style = SpanStyle(brush = Brush.linearGradient(colors = colorList))
                 ) {
-                  append("Qkernel Flasher")
+                  append("Akernel Flasher")
                 }
               },
               style = MaterialTheme.typography.headlineMedium,
@@ -121,7 +121,7 @@ fun RefreshableScreen(
               modifier = Modifier
                 .align(Alignment.Center)
                 .padding(bottom = 8.dp),
-              text = "Qkernel Flasher",
+              text = "Akernel Flasher",
               style = MaterialTheme.typography.headlineMedium,
               fontWeight = FontWeight.Medium,
               color = MaterialTheme.colorScheme.onSurface,
